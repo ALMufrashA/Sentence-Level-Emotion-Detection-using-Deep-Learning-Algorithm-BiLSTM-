@@ -1,8 +1,7 @@
-import streamlit as st
-import tensorflow as tf
-import numpy as np
-import pandas as pd
-import scikit-learn
-import nltk
-import matplotlib.pyplot as plt
-import joblib
+streamlit
+tensorflow==2.14.0
+numpy
+pandas
+scikit-learn
+nltk
+pickle5
