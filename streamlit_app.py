@@ -167,7 +167,7 @@ def render():
     st.markdown("""
         <style>
         .stApp {
-            background-image: url("background.png");
+            background-image: url("background_home.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
