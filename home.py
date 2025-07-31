@@ -31,7 +31,7 @@ def render():
         </div>
     """, unsafe_allow_html=True)
 
-    set_background("C:/Users/HP/OneDrive/Desktop/Sentence Emotion/background_home.jpeg")  # ✅ Now inside render
+    set_background("background_home.jpeg")  # ✅ Now inside render
 
     st.title("Welcome to Sentence-Level-Emotion-Detection Web App")
     st.markdown("""
