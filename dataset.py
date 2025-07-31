@@ -3,7 +3,7 @@ import streamlit as st
 from utils import set_background
 # Use the correct image for each page
 
-set_background("C:/Users/HP/OneDrive/Desktop/Sentence Emotion/background_home.jpg")
+set_background("background_home.jpeg")
 
 def render():
 
