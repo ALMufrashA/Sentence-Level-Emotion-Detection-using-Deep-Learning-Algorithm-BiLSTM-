@@ -4,7 +4,7 @@ import streamlit as st
 from utils import set_background
 # Use the correct image for each page
 
-set_background("background_about.png")
+set_background("background_home.jpeg")
 
 def render():
 
