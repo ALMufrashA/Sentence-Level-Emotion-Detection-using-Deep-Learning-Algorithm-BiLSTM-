@@ -3,7 +3,7 @@ import base64
 import streamlit as st
 
 def set_background(image_path):
-    image_path = "C:/Users/HP/OneDrive/Desktop/Sentence Emotion/background_home.jpeg"
+    image_path = "background_home.jpeg"
     with open(image_path, "rb") as image_file:
         encoded = base64.b64encode(image_file.read()).decode()
     css = f"""
