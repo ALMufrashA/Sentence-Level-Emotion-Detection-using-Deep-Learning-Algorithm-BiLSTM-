@@ -3,7 +3,7 @@ import streamlit as st
 from utils import set_background
 # Use the correct image for each page
 
-set_background("C:/Users/HP/OneDrive/Desktop/Sentence Emotion/background_home.jpeg")
+set_background("background_home.jpeg")
 #set_background("background_home.jpeg")
 
 import tensorflow as tf
@@ -64,7 +64,7 @@ def render():
     st.markdown("""
         <style>
         .stApp {
-            background-image: url("C:/Users/HP/OneDrive/Desktop/Sentence Emotion/background_home.jpeg")
+            background-image: url("background_home.jpeg")
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
